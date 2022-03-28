@@ -27,7 +27,7 @@
          animi assumenda eos sit nesciunt atque iure? Eius magnam soluta labore! 
          Veniam nam, accusamus temporibus dolorum eos vero quas illo?
        </p>
-       <img src="mg/desktop.png" alt="">
+       <img src="img/desktop.png" alt="">
     </section>
     <!-- Section with differents fuctionalities -->
     <section>
@@ -70,31 +70,63 @@
         <h3>
           Productivity Booster
         </h3>
-        <img src="mg/icon-Productivity-booster.png">
+        <img src="img/icon-Productivity-booster.png">
       </div>
       <div>
         <h3>
           Work traceability
         </h3>
-        <img src="mg/icon-work-traceability.png">
+        <img src="img/icon-work-traceability.png">
       </div>
       <div>
         <h3>
           Leadership and team managment
         </h3>
-        <img src="mg/icon-leadership.png">
+        <img src="img/icon-leadership.png">
       </div>
       <div>
         <h3>
           Decision making
         </h3>
-        <img src="mg/icon-decision-making.png">
+        <img src="img/icon-decision-making.png">
       </div>
     </section>
     <!-- Contact form -->
     <section>
       <h3>Contact us for information about the system</h3>
-      <form></form>
+      <form>
+        <div>
+          <label for="fname">First name:</label>
+          <input type="text" id="fname" name="fname" placeholder="placeholder">
+        </div>
+        <div>
+          <label for="lname">Last name:</label>
+          <input for="lname" id="lname" name="lname" placeholder="placeholder">
+        </div>
+        <div></div>
+          <label for="email">Email:</label>
+          <input type="text" id="email" name="email" placeholder="placerholder">
+        </div>
+        <div>
+          <label for="conarea">Contact area:</label>
+          <select id="conarea" name="conlist" form="conform">
+            <option value="" hidden>Option</option>
+            <option value="hr">Human Resources</option>
+            <option value="sys">Systems</option>
+            <option value="com">Commerce</option>
+          </select>
+        </div>
+        <div>
+          <p>
+            Text area
+          </p>
+          <textarea id="textarea" name="textarea" rows="4" cols="50" placeholder="placeholder"></textarea>
+        </div>
+        <div>
+         <input type="submit" value="SEND MESSAGE">
+         <input type="submit" value="RESET">
+        </div>
+      </form>
 
     </section>
 
