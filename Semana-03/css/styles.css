@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+}
+
+.margin {
+    margin-left: 300px;
+}
+
+.block-logo {
+    
+    width: 130px;
+    height: 80px;
+    margin-bottom: 70px;
+    
+
+}
+header {
+    position: absolute;
+    height: 150px;
+    width: 1026px;
+    background-color: #46A37C;
+    left: 254px;
+    top: 0px;
+    margin-bottom: 100px;
+}
+
+.sidebar {
+    position: fixed;
+    background-color: #373867;
+    width: 254px;
+    height: 100%;
+
+}
+
+.sidebar ul {
+    list-style: none;
+    
+}
+
+.sidebar li {
+    padding-bottom: 50px;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
