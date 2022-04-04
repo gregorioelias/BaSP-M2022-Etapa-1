@@ -1,30 +1,31 @@
 body {
     margin: 0;
+    font-family: 'Roboto';
 }
 
 .margin {
     margin-left: 300px;
+    margin-top: 30px;
 }
 
 .block-logo {
-    
+    position: fixed;
     width: 130px;
     height: 80px;
     margin-bottom: 70px;
+    top: 0px;
+    
 }
 header {
-    position: absolute;
     height: 150px;
-    width: 1026px;
+    width: 100%;
     background-color: #46A37C;
-    left: 254px;
-    top: 0px;
-    margin-bottom: 100px;
+   
+    
 }
 header h2 {
-    position: relative;
-    left: 65px;
-    top: 15px;
+    margin-left: 300px;
+    padding: 30px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -39,6 +40,7 @@ header h2 {
     background-color: #373867;
     width: 254px;
     height: 100%;
+    top: 150px;
 }
 
 .sidebar ul {
@@ -55,4 +57,73 @@ header h2 {
     text-decoration: none;
     color: #fff;
     font-size: 18px;
+}
+
+section h1 {
+    height: 100px 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 70px;
+    color: #373867;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.subtitle-one p {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+color:blue;
+color: #B4AFAF;
+}
+.text-one {
+    top: 600px;
+}
+.text-one p {
+margin-top: 40px;
+ margin-left: 1px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+}
+
+
+.img-home {
+    float: right;
+    margin: 20px;
+    right: 50px;
+    
+
+}
+
+.home {
+    display: inline-block;
+}
+
+.fuctionalities-blocks {
+    display: inline-block;
+    width: 35%;
+    height: 130px;
+    margin: 30px;
+    padding: 15px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    text-align: center;
+
+}
+
+.fuctionalities-blocks h4 {
+    font-weight: 500px;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #46A37C;
+    padding-bottom: 20px;
+    
 }
