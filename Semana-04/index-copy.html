@@ -185,33 +185,36 @@
           Contact us for information about the system
         </h3>
         <form>
-          <div class="block-fields">
-            <div class="firstName">
+          <div class="fields-container">
+            <div class="fields">
               <label for="fname">First name:</label>
               <input type="text" id="fname" name="fname" placeholder="Juan">
             </div>
-            <div class="lastName">
+            <div class="fields">
               <label for="lname">Last name:</label>
               <input for="lname" id="lname" name="lname" placeholder="Perez">
             </div>
           </div>
           <div class="other-text-inputs">
-          <label for="email">Email:</label>
-          <input type="text" id="email" name="email" placeholder="example@example.com">
-          <label for="conarea">Contact area:</label>
-          <select id="conarea" name="conlist" form="conform">
-            <option value="" hidden>Option</option>
-            <option value="hr">Human Resources</option>
-            <option value="sys">Systems</option>
-            <option value="com">Commerce</option>
-          </select>
-        </div>
-          <div class="textarea-input">
-            <label for="textarea">Text Area:</label>
-            <textarea id="textarea" name="textarea" rows="4" cols="50" placeholder="Write a text here">
-            </textarea>
+            <div class="fields">
+              <label for="email">Email:</label>
+              <input type="text" id="email" name="email" placeholder="example@example.com">
+            </div>
+            <div class="fields">
+              <label for="conarea">Contact area:</label>
+              <select id="conarea" name="conlist" form="conform">
+                <option value="" hidden>Option</option>
+                <option value="hr">Human Resources</option>
+                <option value="sys">Systems</option>
+                <option value="com">Commerce</option>
+              </select>
+            </div>
           </div>
-          <div class="sumbit-buttons">
+          <div class="fields">
+            <label for="textarea">Text Area:</label>
+            <textarea id="textarea" name="textarea" rows="4" cols="50" placeholder="Write a text here"></textarea>
+          </div>
+          <div class="sumbit-container">
             <div class="sumbit-one">
               <input type="submit" value="SEND MESSAGE">
             </div>
