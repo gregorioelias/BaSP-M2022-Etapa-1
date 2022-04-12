@@ -59,6 +59,32 @@ main #home {
     border: 1px solid blue;
 }
 
+#con {
+    border: 3px solid rgb(206, 7, 0);
+}
+    
+.fields {
+    border: 1px red solid;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.fields-container {
+    border: 3px solid green;
+    display: flex;
+    flex-direction: column;
+}
+
+.sumbit-container {
+    border: 3px solid orange;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* Media queries */
 @media screen and (min-width: 480px) {
     main #home {
         flex-direction: row;
@@ -73,6 +99,16 @@ main #home {
     }
 
     .why-choose-us-boxes {
+        flex-direction: row;
+    }
+    
+    .sumbit-container {
+        justify-content: flex-start;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .fields-container {
         flex-direction: row;
     }
 }
