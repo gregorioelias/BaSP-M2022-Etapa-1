@@ -4,10 +4,77 @@ main #home {
     flex-direction: column;
 }
 
+.block-logo {
+    position:fixed;
+    height: 10px;
+    left: 0px;
+    top: 0px;
+}
+
+.fuctionalities-boxes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 5%;
+    border: 1px red solid;
+}
+
+.fuctionalities-blocks {
+    margin: 30px;
+    margin-left: 7%;
+    padding: 15px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    text-align: center;
+}
+
+.icon {
+     display: flex;
+     width: 80px;
+     height: 80px;
+}
+
+.why-choose-us-boxes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.why-choose-us-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 40%;
+    margin: 10px 10px;
+    padding: 20px;
+}
+
+.functionalities-containers {
+    border: 1px solid blue;
+}
+
+.why-choose-us-container {
+    border: 1px solid blue;
+}
+
 @media screen and (min-width: 480px) {
     main #home {
         flex-direction: row;
     } 
+    
+    .fuctionalities-boxes {
+        flex-direction: row;
+    }
+
+    .fuctionalities-blocks {
+        height: 38%;
+    }
+
+    .why-choose-us-boxes {
+        flex-direction: row;
+    }
 }
 
 @media (min-width: 820px) {
@@ -26,52 +93,4 @@ main #home {
     .block-logo {
         display:none;
     }
-}
-
-.block-logo {
-    position:fixed;
-    height: 10px;
-    left: 0px;
-    top: 0px;
-}
-
-.fuctionalities-boxes {
-    display:flex;
-    flex-wrap:wrap;
-    justify-content: center;
-    border: 1px red solid;
-}
-
-.fuctionalities-blocks {
-    width: 35%;
-    margin: 30px;
-    margin-left: 7%;
-    padding: 15px;
-    background-color: #f2f2f2;
-    border-radius: 10px;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    text-align: center;
-}
-
- .icon {
-    display: flex;
-    width: 80px;
-    height: 80px;
-}
-
-.why-choose-us-boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
-
-.why-choose-us-box {
-    display: flex;
-    flex-wrap: flex;
-    justify-content: center;
-    align-items: center;
-    flex-basis: 40%;
-    margin: 10px 10px;
-    padding: 20px;
 }
