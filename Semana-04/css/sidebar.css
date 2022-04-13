@@ -6,13 +6,25 @@
     background-color: #373867;
 }
 
+.sidebar ul {
+    margin: 50px;
+}
+
+.sidebar li {
+    display: flex;
+    align-items: center;
+}
+
 .sidebar img {
-    border: 1px solid red;
     width: 30px;
+    margin: 10px 0px;
+    padding: 3px;
+    border-radius: 30px;
 }
 
 .sidebar a {
     font-style: none;
+    margin: 10px;
 }
 
 @media (min-width: 768px) {

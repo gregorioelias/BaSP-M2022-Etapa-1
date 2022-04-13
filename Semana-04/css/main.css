@@ -1,14 +1,16 @@
 main #home {
-    border: 1px red solid;
     display: flex;
     flex-direction: column;
+}
+
+main #home .presentation {
+    margin: 20px;
 }
 
 .fuctionalities-boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    border: 1px red solid;
 }
 
 .fuctionalities-blocks {
@@ -23,9 +25,9 @@ main #home {
 }
 
 .icon {
-     display: flex;
-     width: 80px;
-     height: 80px;
+    display: flex;
+    width: 80px;
+    height: 80px;
 }
 
 .why-choose-us-container {
@@ -44,14 +46,6 @@ main #home {
     padding: 20px;
 }
 
-.functionalities-containers {
-    border: 1px solid blue;
-}
-
-.why-choose-us-container {
-    border: 1px solid blue;
-}
-
 .why-choose-us-text h3 {
     padding: 10px;
 }
@@ -60,29 +54,48 @@ main #home {
     padding: 10px;
 }
 
-#con {
-    border: 3px solid rgb(206, 7, 0);
+#con h3 {
+    margin: 20px 10px;
 }
-    
+
+form {
+    margin: 30px;
+}
+
 .fields {
-    border: 1px red solid;
     display: flex;
     flex-direction: column;
     width: 100%;
 }
 
+.fields label {
+    margin: 5px;
+}
+
+.fields input,
+.fields select,
+.fields textarea {
+    margin: 5px;
+    padding: 5px;
+    border-radius: 3px;
+}
+
 .fields-container {
-    border: 3px solid green;
     display: flex;
     flex-direction: column;
 }
 
 .sumbit-container {
-    border: 3px solid orange;
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+
+.sumbit-one input,
+.sumbit-two input {
+    padding: 10px;
+    margin: 5px;
 }
 
 #who-we-are {
@@ -91,23 +104,20 @@ main #home {
     padding: 30px;
     padding-bottom: 10px;
     width: 70%;
-    border: 3px red solid;
     border-radius: 15px;
     vertical-align: middle;
     background-color: #F2F2F2;
     filter: drop-shadow(0px 10px 10px rgba(55, 56, 103, 0.5));
-
 }
 
 #who-we-are p {
     margin-top: 1.5em;
     margin-bottom: 1.5em;
     line-height: 22px;
-    color:black;
+    color: black;
 }
 
 .list-container {
-    border: 1px solid red;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -115,15 +125,14 @@ main #home {
 }
 
 .list-section {
-    border: 1px solid green;
     min-width: 250px;
 }
 
-.list-section ul{
+.list-section ul {
     list-style-type: circle;
 }
 
-.list-section ol{
+.list-section ol {
     list-style-type: decimal;
 }
 
@@ -137,8 +146,6 @@ main #home {
     color: black;
 }
 
-    /* Media queries */
-
 @media screen and (min-width: 480px) {
     .sumbit-container {
         justify-content: flex-start;
@@ -149,16 +156,13 @@ main #home {
     main #home {
         flex-direction: row;
     }
-
     main #home .img-home {
         width: 23vw;
     }
-
     .fields-container {
         flex-direction: row;
         align-items: none;
     }
-
     main {
         margin-left: 224px;
     }

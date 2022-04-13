@@ -2,9 +2,7 @@ header {
     display: flex;
     height: 100px;
     justify-content: center;
-    border: 1px red solid;
     align-items: center;
-    background-color: #46A37C;
 }
 
 header .block-logo {
@@ -12,61 +10,34 @@ header .block-logo {
     position: fixed;
     height: 23%;
     left: 0px;
-    top: 0px; 
+    top: 0px;
 }
 
 header .block-logo img {
     height: 132px;
 }
 
-header h2 {
-    border: 1px blue solid;
-    font-size: 30px;
-    color: #373867;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
 header .burguer-icon {
-    border: 1px solid green;
     display: block;
     position: absolute;
     left: 20px;
 }
 
 header .burguer-icon img {
-    width: 50px;
-}
-
-    /* Media queries */
-
-@media screen and (min-width: 480px) {
-
+    width: 6.5vw;
 }
 
 @media screen and (min-width: 768px) {
     header {
         height: 130px;
     }
-
     header .block-logo {
         display: block;
     }
-
     header {
         margin-left: 224px;
     }
-
     header .burguer-icon {
         display: none;
     }
 }
-
-/* @media screen and (min-width: 820px) {
-    header .block-logo {
-        display: block;
-    }
-
-    header {
-        margin-left: 224px;
-    }
-} */

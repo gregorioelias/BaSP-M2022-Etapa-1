@@ -1,3 +1,55 @@
+header {
+    background-color: #46A37C;
+}
+
+header h2 {
+    font-size: 30px;
+    color: #373867;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+label,
+li,
+a {
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+section {
+    margin: 20px 0px;
+}
+
+main #home h1 {
+    font-size: 8vw;
+    margin: 15px 0px 20px;
+}
+
+main #home .subtitle-one p {
+    font-size: 3vw;
+    margin: 10px 0px;
+}
+
+main #home .text-one p {
+    font-size: 2.5vw;
+    margin: 10px 0px;
+}
+
+@media screen and (min-width: 768px) {
+    main #home h1 {
+        font-size: 4vw;
+    }
+    main #home .subtitle-one p {
+        font-size: 2vw;
+    }
+    main #home .text-one p {
+        font-size: 1.5vw;
+    }
+}
+
 .fuctionalities-blocks h4 {
     font-weight: 500px;
     font-size: 24px;
@@ -13,8 +65,6 @@
 }
 
 section h1 {
-    height: 100px; 
-    line-height: 70px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -28,7 +78,6 @@ section h1 {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 30px;
     color: #B4AFAF;
 }
 
@@ -37,16 +86,15 @@ section h1 {
 }
 
 .text-one p {
-    margin-top: 40px;
     margin-left: 1px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    line-height: 30px;
+    line-height: 25px;
 }
 
-.sumbit-one input{
+.sumbit-one input {
     border-radius: 5px;
     border-color: transparent;
     background: #AACE9B;
@@ -57,4 +105,13 @@ section h1 {
     border-radius: 5px;
     border-color: #373867;
     background: #FFFFFF;
+}
+
+.sidebar a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.sidebar li img {
+    background: white;
 }
