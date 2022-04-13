@@ -1,5 +1,22 @@
 .sidebar {
+    display: none;
     position: fixed;
+    width: 224px;
     padding-bottom: 100%;
     background-color: #373867;
+}
+
+.sidebar img {
+    border: 1px solid red;
+    width: 30px;
+}
+
+.sidebar a {
+    font-style: none;
+}
+
+@media (min-width: 768px) {
+    .sidebar {
+        display: block;
+    }
 }
