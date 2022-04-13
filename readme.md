@@ -10,4 +10,9 @@
  We created a CSS file based on layout design from Figma and 
  the HTML also based on Figma.
 
+# Week 4
+ We created CSS files to work on responsivness using flexbox
+ technology and media queries, based on Figma designs for
+ mobile, tablet, desktop and other screens and devices.
+
  Readme created by Gregorio Elias.
