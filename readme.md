@@ -15,4 +15,10 @@
  technology and media queries, based on Figma designs for
  mobile, tablet, desktop and other screens and devices.
 
+# Week 5
+ We created JS files to solve a bunch of logic exercises.
+ The results are shown using console.log and alert methods.
+
  Readme created by Gregorio Elias.
+
+ 
