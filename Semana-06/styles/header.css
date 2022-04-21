@@ -1,0 +1,43 @@
+header {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+header .block-logo {
+    display: none;
+    position: fixed;
+    height: 23%;
+    left: 0px;
+    top: 0px;
+}
+
+header .block-logo img {
+    height: 132px;
+}
+
+header .burguer-icon {
+    display: block;
+    position: absolute;
+    left: 20px;
+}
+
+header .burguer-icon img {
+    width: 6.5vw;
+}
+
+@media screen and (min-width: 768px) {
+    header {
+        height: 130px;
+    }
+    header .block-logo {
+        display: block;
+    }
+    header {
+        margin-left: 224px;
+    }
+    header .burguer-icon {
+        display: none;
+    }
+}

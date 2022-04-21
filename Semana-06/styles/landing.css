@@ -1,0 +1,169 @@
+main #home {
+    display: flex;
+    flex-direction: column;
+}
+
+main #home .presentation {
+    margin: 20px;
+}
+
+.fuctionalities-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.fuctionalities-blocks {
+    width: 40%;
+    margin: 10px;
+    max-width: 40%;
+    padding: 15px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    text-align: center;
+}
+
+.icon {
+    display: flex;
+    width: 80px;
+    height: 80px;
+}
+
+.why-choose-us-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.why-choose-us-box {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    max-width: 40%;
+    margin: 10px 10px;
+    padding: 20px;
+}
+
+.why-choose-us-text h3 {
+    padding: 10px;
+}
+
+.why-choose-us-text p {
+    padding: 10px;
+}
+
+#con h3 {
+    margin: 20px 10px;
+}
+
+form {
+    margin: 30px;
+}
+
+.fields {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.fields label {
+    margin: 5px;
+}
+
+.fields input,
+.fields select,
+.fields textarea {
+    margin: 5px;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.fields-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.sumbit-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.sumbit-one input,
+.sumbit-two input {
+    padding: 10px;
+    margin: 5px;
+}
+
+#who-we-are {
+    margin: 5%;
+    margin-left: 11%;
+    padding: 30px;
+    padding-bottom: 10px;
+    width: 70%;
+    border-radius: 15px;
+    vertical-align: middle;
+    background-color: #F2F2F2;
+    filter: drop-shadow(0px 10px 10px rgba(55, 56, 103, 0.5));
+}
+
+#who-we-are p {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    line-height: 22px;
+    color: black;
+}
+
+.list-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.list-section {
+    min-width: 250px;
+}
+
+.list-section ul {
+    list-style-type: circle;
+}
+
+.list-section ol {
+    list-style-type: decimal;
+}
+
+.list-section h3 {
+    margin: 15px 0px 23px;
+    line-height: 35px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    color: black;
+}
+
+@media screen and (min-width: 480px) {
+    .sumbit-container {
+        justify-content: flex-start;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    main #home {
+        flex-direction: row;
+    }
+    main #home .img-home {
+        width: 23vw;
+    }
+    .fields-container {
+        flex-direction: row;
+        align-items: none;
+    }
+    main {
+        margin-left: 224px;
+    }
+}
