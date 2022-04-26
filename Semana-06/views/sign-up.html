@@ -5,39 +5,95 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="../styles/sign-up.css">
+    <link rel="stylesheet" type="text/css" href="../styles/reset.css">
+    <link rel="stylesheet" type="text/css" href="../styles/styles.css">
+    <link rel="stylesheet" type="text/css" href="../styles/header.css">
+    <link rel="stylesheet" type="text/css" href="../styles/footer.css">
+  <script src="../javascript/employee-signup.js"></script>
     <title>Sign up Trackgenix</title>
 </head>
 <body>
-    <header>
-        <h2>
-          Trackgenix SA
-        </h2>
-        </header>
-        <h2>HTML Forms</h2>
-    <form action="/action_page.php">
-      <label for="firstname">First name:</label>
-      <input type="text" id="firstname" name="firstname" value="First name">
-      <label for="lastname">Last name:</label>
-      <input type="text" id="lastname" name="lastname" value="Last name">
-      <label for="dni">DNI:</label>
-      <input type="text" id="dni" name="dni" value="DNI">
-      <label for="dateofbirth">Date of birth:</label>
-      <input type="text" id="dateofbirth" name="dateofbirth" value="Date of birth">
-      <label for="phone-number">Phone number:</label>
-      <input type="text" id="phone-number" name="phone-number" value="Phone number">
-      <label for="address">Adress:</label>
-      <input type="text" id="address" name="address" value="Address">
-      <label for="city">City:</label>
-      <input type="text" id="city" name="city" value="City">
-      <label for="postalcode">Postal code:</label>
-      <input type="text" id="postalcode" name="postalcode" value="Postal code">
-      <label for="email">Email:</label>
-      <input type="text" id="email" name="email" value="email"> 
-      <label for="password">Password:</label>
-      <input type="text" id="password" name="password" value="password">
-      <label for="repeatpassword">Repeat password:</label>
-      <input type="text" id="repeatpassword" name="repeatpassword" value="Repeat password">
-      <input type="submit" value="Sign up">
-    </form>  
+  <header>
+    <div class="block-logo">
+      <img id="logo" src="../assets/logo.png">
+    </div>
+    <h2>
+      Trackgenix SA
+    </h2>
+  </header>
+  <main class="main">
+    
+    <form class="signup-form">
+      <h2>SignUP</h2>
+    <div class="flex-inputs">
+        <div class="flex-field">
+          <label for="firstname">First name:</label>
+          <input type="text" id="firstname" name="firstname" value="First name">
+        </div>
+        <div class="flex-field">
+          <label for="lastname">Last name:</label>
+          <input type="text" id="lastname" name="lastname" value="Last name">
+        </div>
+        <div class="flex-field"> 
+          <label for="dni">DNI:</label>
+          <input type="number" id="dni" name="dni" value="DNI">
+        </div>
+        <div class="flex-field">
+          <label for="dateofbirth">Date of birth:</label>
+          <input type="date" id="dateofbirth" name="dateofbirth" value="Date of birth">
+        </div>
+        <div class="flex-field">
+          <label for="phone-number">Phone number:</label>
+          <input type="number" id="phone-number" name="phone-number" value="Phone number">
+        </div>
+        <div class="flex-field">
+          <label for="address">Adress:</label>
+          <input type="text" id="address" name="address" value="Address">
+        </div>
+        <div class="flex-field">
+          <label for="city">City:</label>
+          <input type="text" id="city" name="city" value="City">
+        </div>
+        <div class="flex-field">
+          <label for="postalcode">Postal code:</label>
+          <input type="number" id="postalcode" name="postalcode" value="Postal code">
+        </div>
+        <div class="flex-field">
+          <label for="email">Email:</label>
+          <input type="text" id="email" name="email" value="email">
+          <div id="messageEmail"></div>
+        </div>
+        <div class="flex-field">
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" value="password">
+          <div id="messagePass"></div>
+      </div>
+      <div class="flex-field">
+        <label for="repeatpassword">Repeat password:</label>
+        <input type="password" id="repeatpassword" name="repeatpassword" value="Repeat password">
+      </div>
+      </div>
+      <div>
+        <input type="submit" id="signup-b" value="Sign up">
+    </div>
+    </form> 
+  </main>
+  <footer class="section-line">
+    <a href="https://www.facebook.com/radiumrocket/" target="_blank">
+      <img src="../assets/fcb.png" alt="Facebook">
+    </a>
+    <a href="https://ar.linkedin.com/company/radium-rocket" target="_blank">
+      <img src="../assets/in.png" alt="Linkdn">
+    </a>
+    <a href="https://www.instagram.com/radium.rocket/" target="_blank">
+      <img src="../assets/insta.png" alt="Insta">
+    </a>
+    <a href="https://twitter.com/radiumrocket" target="_blank">
+      <img src="../assets/twt.jpg" alt="Twitter">
+    </a>
+    <p>
+      Copyright &copy; 2022 Trackgenix S.A. All rigths reserved.
+    </p>
+  </footer>  
 </body>
 </html>
