@@ -18,6 +18,7 @@ window.onload = function () {
      function emailFocus() {
        email.style.border = "3px solid grey";
        messageEmail.classList.add('hide');
+       messageEmail.classList.remove ('error');
      }
      function emailBlur() {
        mailIsValid = mailformat.test(email.value);
@@ -33,6 +34,7 @@ window.onload = function () {
      function passwordFocus() {
        password.style.border = "3px solid grey";
        messagePass.classList.add('hide');
+       messagePass.classList.remove ('error');
      }
      function passwordBlur() {
        passIsValid = validatePassword()

@@ -30,17 +30,14 @@
 .flex-field {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
 
 }
 
 .login-form .flex-field label {
     border-radius: 10px;
-    width: 20%;
     margin: 5px;
     padding: 5px;
-
-
 }
 
 .login-form .flex-field input {
