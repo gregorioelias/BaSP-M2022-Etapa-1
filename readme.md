@@ -19,6 +19,7 @@
  We created JS files to solve a bunch of logic exercises.
  The results are shown using console.log and alert methods.
 
- Readme created by Gregorio Elias.
+ # Week 6
+ We created sign-up and login forms on html and added in both a logic and validations with JS.
 
- 
+Readme created by Gregorio Elias.

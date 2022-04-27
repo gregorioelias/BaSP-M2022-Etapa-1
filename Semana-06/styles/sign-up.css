@@ -4,7 +4,6 @@
 
 
 .signup-form {
-    border: red 3px solid;
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -59,10 +58,6 @@
     margin: 20px;
     padding: 10px;
 
-}
-
-h2 {
-    margin: 20px;
 }
 
 .hide {
