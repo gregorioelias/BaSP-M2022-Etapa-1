@@ -68,8 +68,7 @@ window.onload = function () {
 
   function signInClick(e) {
     e.preventDefault()
-    var url = `https://basp-m2022-api-rest-server.herokuapp.com/login?emal=${email.value}&password=${password.value}`
-    console.log(url)
+    var url = `https://basp-m2022-api-rest-server.herokuapp.com/login?email=${email.value}&password=${password.value}`
     if (!mailIsValid) {
       alert("Email incorrect");
     } else if (!passIsValid) {
