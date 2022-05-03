@@ -60,3 +60,12 @@ h2 {
     margin: 20px;
 }
 
+.hide {
+    display: none;
+}
+
+.error {
+    display: flex;
+    color: red;
+    
+}
