@@ -22,4 +22,8 @@
  # Week 6
  We created sign-up and login forms on html and added in both a logic and validations with JS.
 
+ # Week 7
+
+ We made that when pressing the buttons of the forms, the data loaded in them is sent to a web server through an HTTP request from JavaScript.
+
 Readme created by Gregorio Elias.
