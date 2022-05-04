@@ -14,6 +14,8 @@ window.onload = function () {
   var signUpButton = document.getElementById("signup-b");
   var messageBox = document.getElementsByClassName("msg-box");
 
+  inputsIn();
+
 
   fname.addEventListener("blur", FNameBlur);
   fname.addEventListener("focus", FNameFocus);
@@ -432,7 +434,6 @@ window.onload = function () {
         })
         .then(function (response) {
           if (response.success) {
-            console.log("hola", response.msg);
             alert(`${response.msg}
               Employee ID: ${response.data.id}
               First Name: ${response.data.name}
@@ -441,18 +442,46 @@ window.onload = function () {
               Date of Birth: ${response.data.dob}
               Phone Number: ${response.data.phone}
               Address: ${response.data.address}
-              City: ${response.data.city}`)
+              City: ${response.data.city}`);
+            storageLocal();
           }
           else {
-            console.log("medio", response.errors)
             alert(response.errors[0].msg)
           }
         })
         .catch(function (responseError) {
-          console.log("chau");
           alert(responseError)
         })
     }
   }
+  //local storage
 
+  function storageLocal() {
+    localStorage.setItem("name", fname.value)
+    localStorage.setItem("lastName", lname.value)
+    localStorage.setItem("dni", dni.value)
+    localStorage.setItem("dob", dateofbirth.value)
+    localStorage.setItem("phone", phone.value)
+    localStorage.setItem("address", address.value)
+    localStorage.setItem("city", city.value)
+    localStorage.setItem("zip", postalCode.value)
+    localStorage.setItem("email", email.value)
+    localStorage.setItem("password", password.value)
+    localStorage.setItem("repeatPasword", password.value)
+  }
+
+  function inputsIn() {
+    fname.value = localStorage.getItem("name");
+    lname.value = localStorage.getItem("lastName");
+    dni.value = localStorage.getItem("dni");
+    dateofbirth.value = localStorage.getItem("dob");
+    phone.value = localStorage.getItem("phone");
+    address.value = localStorage.getItem("address");
+    city.value = localStorage.getItem("city");
+    postalCode.value = localStorage.getItem("zip");
+    email.value = localStorage.getItem("email");
+    password.value = localStorage.getItem("password");
+    repeatPassword.value = localStorage.getItem("repeatPasword");
+
+  }
 }
